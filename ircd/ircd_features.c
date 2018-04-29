@@ -525,7 +525,7 @@ static struct FeatureDesc {
   F_S(DEFAULT_LIST_PARAM, FEAT_NULL, 0, list_set_default),
   F_I(NICKNAMEHISTORYLENGTH, 0, 800, whowas_realloc),
   F_B(HOST_HIDING, 0, 1, 0),
-  F_S(HIDDEN_HOST, FEAT_CASE, "Users.Nefarious", 0),
+  F_S(HIDDEN_HOST, FEAT_CASE, "users.underx.org", 0),
   F_S(HIDDEN_IP, 0, "127.0.0.1", 0),
   F_B(CONNEXIT_NOTICES, 0, 0, 0),
   F_B(OPLEVELS, 0, 0, feature_notify_oplevels),
@@ -622,16 +622,16 @@ static struct FeatureDesc {
   F_B(HIS_REWRITE, 0, 1, 0),
   F_I(HIS_REMOTE, 0, 1, 0),
   F_B(HIS_NETSPLIT, 0, 1, 0),
-  F_S(HIS_SERVERNAME, 0, "*.Nefarious", feature_notify_servername),
-  F_S(HIS_SERVERINFO, 0, "evilnet development", feature_notify_serverinfo),
-  F_S(HIS_URLSERVERS, 0, "http://sourceforge.net/projects/evilnet/", 0),
+  F_S(HIS_SERVERNAME, 0, "*.underx.org", feature_notify_servername),
+  F_S(HIS_SERVERINFO, 0, "Underx IRC Network", feature_notify_serverinfo),
+  F_S(HIS_URLSERVERS, 0, "http://www.underx.org/servers/", 0),
 
   /* Misc. random stuff */
-  F_S(NETWORK, 0, "Nefarious", set_isupport_network),
-  F_S(URL_CLIENTS, 0, "http://www.ircreviews.org/clients/", 0),
-  F_S(URLREG, 0, "http://sourceforge.net/projects/evilnet/", 0),
+  F_S(NETWORK, 0, "Underx", set_isupport_network),
+  F_S(URL_CLIENTS, 0, "http://www.underx.org/", 0),
+  F_S(URLREG, 0, "http://www.underx.org", 0),
 
-  /* Nefarious FEAT_'s */
+  /* Underx-Nefarious FEAT_'s */
   F_B(CHECK, 0, 1, 0),
   F_B(CHECK_EXTENDED, 0, 1, 0),
   F_I(MAX_CHECK_OUTPUT, 0, 1000, 0),
@@ -725,7 +725,7 @@ static struct FeatureDesc {
   F_B(EXTBAN_m, 0, 1, set_isupport_extbans),
   F_B(EXTBAN_M, 0, 1, set_isupport_extbans),
 
-  /* Some misc. Nefarious default paths */
+  /* Some misc. Underx-Nefarious default paths */
   F_S(OMPATH, FEAT_CASE | FEAT_MYOPER, "ircd.opermotd", motd_init),
   F_S(EPATH, FEAT_CASE | FEAT_MYOPER, "ircd.rules", motd_init),
 
@@ -735,9 +735,9 @@ static struct FeatureDesc {
   F_S(HIDDEN_HOST_UNSET_MESSAGE, 0, "UnRegistered", 0),
   F_B(ALLOWRMX, 0, 0, 0),
   F_B(OPERHOST_HIDING, 0, 1, 0),
-  F_S(HIDDEN_OPERHOST, FEAT_CASE, "Staff.Nefarious", 0),
+  F_S(HIDDEN_OPERHOST, FEAT_CASE, "staff.underx.org", 0),
   F_I(HOST_HIDING_STYLE, 0, 1, 0),
-  F_S(HOST_HIDING_PREFIX, 0, "Nefarious", 0),
+  F_S(HOST_HIDING_PREFIX, 0, "Underx", 0),
   F_S(HOST_HIDING_KEY1, 0, "aoAr1HnR6gl3sJ7hVz4Zb7x4YwpW", 0),
   F_S(HOST_HIDING_KEY2, 0, "sdfjkLJKHlkjdkfjsdklfjlkjKLJ", 0),
   F_S(HOST_HIDING_KEY3, 0, "KJklJSDFLkjLKDFJSLKjlKJFlkjS", 0),
