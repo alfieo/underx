@@ -1,5 +1,5 @@
 
-            Welcome to Nefarious 2, the Evilnet IRC daemon
+            Welcome to Nefarious 2, the Underx IRC daemon
 
 Current features include:
   - A completely rewritten network event engine, which make full use
@@ -66,7 +66,7 @@ MORE INFORMATION
 For more information on this software, see the included documentation
 in the doc/ directory.
 
-For general information on Evilnet, visit http://evilnet.github.io/
+For general information on Underx, visit http://github.com/alfieo
 
 Happy IRCing!
 
